@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+## Try the [demonstation](https://atmoner.github.io/Adblock-detector/)!
 
-You can use the [editor on GitHub](https://github.com/atmoner/Adblock-detector/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+![Adblock-detector](https://i.imgur.com/9iLhSGe.png)
+![Adblock-detector](https://i.imgur.com/dVcBcPL.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## How to use it?  
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+* Include this content in your footer: adblockDetector.js
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/atmoner/Adblock-detector/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<script src="adblockDetector.js"></script>
+```
+* Add this code in your html page:
+```
+<b id="messageAdsblocker" style="display:none">Ads block is detected!</b>
+<b id="messageOk" style="display:none">Ads block is not detected!</b>
+```
+* (Optional) Use this css:
+```
+#messageAdsblocker {
+  background-color:#F78181;
+  border:1px solid #DF0101;
+  padding:5px;
+  margin-bottom: 30px; 
+  /* arrondi */
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+}
+#messageOk {
+  background-color:#9FF781;
+  border:1px solid #31B404;
+  padding:5px;
+  margin-bottom: 30px; 
+  /* arrondi */
+  -moz-border-radius:7px;
+  -webkit-border-radius:7px;
+  border-radius:7px;
+}
+```
