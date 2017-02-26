@@ -4,36 +4,5 @@
 ![Adblock-detector](https://i.imgur.com/dVcBcPL.png)
 
 ## How to use it?  
-
-* Include this content in your footer: adblockDetector.js
-```
-<script src="adblockDetector.js"></script>
-```
-* Add this code in your html page:
-```
-<b id="messageAdsblocker" style="display:none">Ads block is detected!</b>
-<b id="messageOk" style="display:none">Ads block is not detected!</b>
-```
-* (Optional) Use this css:
-```
-#messageAdsblocker {
-  background-color:#F78181;
-  border:1px solid #DF0101;
-  padding:5px;
-  margin-bottom: 30px; 
-  /* arrondi */
-  -moz-border-radius:7px;
-  -webkit-border-radius:7px;
-  border-radius:7px;
-}
-#messageOk {
-  background-color:#9FF781;
-  border:1px solid #31B404;
-  padding:5px;
-  margin-bottom: 30px; 
-  /* arrondi */
-  -moz-border-radius:7px;
-  -webkit-border-radius:7px;
-  border-radius:7px;
-}
-```
+ 
+<a href="https://www.mashape.com/atmoner/anti-adblockers?&amp;utm_campaign=mashape5-embed&amp;utm_medium=button&amp;utm_source=anti-adblockers&amp;utm_content=anchorlink&amp;utm_term=text-light"><img src="https://d1g84eaw0qjo7s.cloudfront.net/images/badges/badge-text-light-e9e35ecb.png" alt="Mashape" width="200" height="38"></a>
